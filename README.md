@@ -58,7 +58,7 @@ Gekgek University LMS adalah aplikasi Learning Management System (LMS) full-stac
 ### 1. Clone Repository
 Clone repository ini ke komputer Anda:
 ```bash
-git clone https://github.com/username/repository-name.git
+git clone https://github.com/farisakbar28/gekgek-university-lms.git
 ```
 
 ### 2. Instal Dependensi
