@@ -1,65 +1,55 @@
-Gekgek University LMS
-Gekgek University LMS adalah sebuah aplikasi Learning Management System (LMS) full-stack yang menggunakan React.js untuk front-end dan Node.js/Express.js untuk back-end, dengan PostgreSQL sebagai database. Fitur utama meliputi pengelolaan kursus, pendaftaran, komunikasi real-time menggunakan Socket.IO, otentikasi dengan JWT, dan unggahan file menggunakan Multer.
+# Gekgek University LMS
 
-Fitur Utama
-Pendaftaran Pengguna: Pengguna dapat mendaftar, masuk, dan mengelola akun mereka.
+**Gekgek University LMS** adalah sebuah aplikasi **Learning Management System (LMS)** full-stack menggunakan **React.js** untuk front-end dan **Node.js/Express.js** untuk back-end, dengan **PostgreSQL** sebagai database. Fitur utama meliputi pengelolaan kursus, pendaftaran, komunikasi real-time menggunakan **Socket.IO**, otentikasi dengan **JWT**, dan unggahan file menggunakan **Multer**.
 
-Manajemen Kursus: Admin dapat membuat, memperbarui, dan menghapus kursus.
+## Fitur Utama
 
-Pendaftaran Kursus: Pengguna dapat mendaftar ke kursus yang tersedia dan mengikuti materi yang diberikan.
+- **Pendaftaran Pengguna**: Pengguna dapat mendaftar, masuk, dan mengelola akun mereka.
+- **Manajemen Kursus**: Admin dapat membuat, memperbarui, dan menghapus kursus.
+- **Pendaftaran Kursus**: Pengguna dapat mendaftar ke kursus yang tersedia dan mengikuti materi yang diberikan.
+- **Manajemen Materi**: Admin dapat mengunggah materi pembelajaran (video, dokumen, dll.).
+- **Fitur Real-time**: Menggunakan **Socket.IO** untuk chat dan interaksi real-time antara instruktur dan siswa.
+- **Keamanan**: Menggunakan **JWT** untuk otentikasi dan otorisasi pengguna.
+- **File Upload**: Menggunakan **Multer** untuk pengelolaan unggahan file dari pengguna.
 
-Manajemen Materi: Admin dapat mengunggah materi pembelajaran (video, dokumen, dll.).
+## Teknologi yang Digunakan
 
-Fitur Real-time: Menggunakan Socket.IO untuk chat dan interaksi real-time antara instruktur dan siswa.
+### Front-End
 
-Keamanan: Menggunakan JWT untuk otentikasi dan otorisasi pengguna.
+- **React.js** (library untuk membangun UI)
+- **Tailwind CSS** (framework untuk styling)
+- **React Router** (untuk navigasi antar halaman)
+- **Redux** (untuk manajemen state aplikasi)
+- **Axios** (untuk data fetching)
 
-File Upload: Menggunakan Multer untuk pengelolaan unggahan file dari pengguna.
+### Back-End
 
-Teknologi yang Digunakan
-Front-End
-React.js (library untuk membangun UI)
+- **Node.js** (runtime environment)
+- **Express.js** (web framework untuk Node.js)
+- **JWT** (untuk otentikasi pengguna)
+- **Multer** (untuk manajemen file upload)
+- **Socket.IO** (untuk komunikasi real-time)
+- **Prisma** (ORM untuk interaksi dengan database PostgreSQL)
 
-Tailwind CSS (framework untuk styling)
+### Database
 
-React Router (untuk navigasi antar halaman)
+- **PostgreSQL** (relational database management system)
 
-Redux (untuk manajemen state aplikasi)
+### Testing
 
-Axios (untuk data fetching)
+- **Jest** (untuk pengujian front-end)
+- **Mocha dan Chai** (untuk pengujian back-end)
+- **Cypress** (untuk pengujian end-to-end)
 
-Back-End
-Node.js (runtime environment)
+### Deployment
 
-Express.js (web framework untuk Node.js)
+- **Vercel / Netlify** (untuk hosting front-end)
+- **Render / Railway** (untuk hosting back-end)
+- **Supabase** (untuk hosting database)
 
-JWT (untuk otentikasi pengguna)
+## Struktur Proyek
 
-Multer (untuk manajemen file upload)
-
-Socket.IO (untuk komunikasi real-time)
-
-Prisma (ORM untuk interaksi dengan database PostgreSQL)
-
-Database
-PostgreSQL (relational database management system)
-
-Testing
-Jest (untuk pengujian front-end)
-
-Mocha dan Chai (untuk pengujian back-end)
-
-Cypress (untuk pengujian end-to-end)
-
-Deployment
-Vercel / Netlify (untuk hosting front-end)
-
-Render / Railway (untuk hosting back-end)
-
-Supabase (untuk hosting database)
-
-Struktur Proyek
-plaintext
+```plaintext
 .
 ├── client/                    # Front-end application (React)
 ├── server/                    # Back-end application (Node.js/Express)
@@ -96,3 +86,6 @@ Kami menyambut kontribusi dari siapa saja! Jika Anda ingin berkontribusi, silaka
 
 Lisensi
 Aplikasi ini dilisensikan di bawah MIT License.
+
+
+Salin dan tempelkan konten ini ke file `README.md` di repositori GitHub Anda. Dengan demikian, file README.md Anda akan terstruktur dengan baik dan informatif. Jika ada yang perlu diperbaiki atau ditambahkan, jangan ragu untuk memberi tahu saya!
