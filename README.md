@@ -52,10 +52,43 @@ Gekgek University LMS adalah aplikasi Learning Management System (LMS) full-stac
 ```
 .
 ├── client/                    # Aplikasi Front-end (React)
+│   ├── src/                   # Kode sumber aplikasi front-end
+│   │   ├── redux/             # Manajemen state dengan Redux
+│   │   ├── services/          # Fungsi untuk API calls (Axios)
+│   │   ├── utils/             # Helper functions
+│   │   ├── pages/             # Halaman utama aplikasi
+│   │   ├── components/        # Komponen UI aplikasi
+│   │   ├── assets/            # File aset statis (gambar, font, icon)
+│   │   ├── index.jsx          # Titik masuk utama aplikasi React
+│   │   ├── App.jsx            # Komponen utama aplikasi
+│   │   ├── index.css          # CSS global
+│   ├── public/                # File statis, termasuk index.html
+│   ├── .gitignore             # File Git ignore khusus client
+│   ├── tailwind.config.js     # Konfigurasi Tailwind CSS
+│   ├── postcss.config.js      # Konfigurasi PostCSS
+│   ├── package.json           # Dependensi dan skrip front-end
+│   ├── package-lock.json      # Versi pasti dependensi front-end
+│   ├── README.md              # Dokumentasi client-side
+│   ├── vite.config.js         # Konfigurasi Vite bundler
+│   └── eslint.config.js       # Konfigurasi ESLint
 ├── server/                    # Aplikasi Back-end (Node.js/Express)
-├── .gitignore                 # File Git ignore
-├── README.md                  # Dokumentasi proyek
-└── package.json               # Dependensi dan script proyek
+│   ├── prisma/                # Skema Prisma ORM untuk database
+│   │   └── schema.prisma      # Definisi skema database
+│   ├── config/                # File konfigurasi aplikasi
+│   ├── utils/                 # Fungsi utilitas di sisi server
+│   ├── middleware/            # Middleware seperti autentikasi
+│   ├── services/              # Logika utama aplikasi (user, course, file)
+│   ├── routes/                # Rute API
+│   ├── models/                # Model Prisma untuk database
+│   ├── controllers/           # Logika untuk menangani request dan response
+│   ├── server.js              # Titik masuk utama untuk server back-end
+│   ├── .gitignore             # File Git ignore khusus server
+│   ├── .env                   # Variabel lingkungan (mis. database, JWT secret)
+│   ├── package.json           # Dependensi dan skrip back-end
+│   └── package-lock.json      # Versi pasti dependensi back-end
+├── .gitignore                 # Git ignore untuk root folder
+├── package.json               # Dependensi dan skrip proyek utama
+└── package-lock.json          # Versi pasti dependensi proyek utama
 ```
 
 ## Cara Instalasi
@@ -95,6 +128,10 @@ JWT_SECRET=your_jwt_secret
   npm start
   ```
 - Untuk menjalankan client (di folder `client/`):
+  ```bash
+  npm run dev
+  ```
+- Untuk menjalankan client dan server secara bersamaan:
   ```bash
   npm run dev
   ```
