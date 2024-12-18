@@ -123,17 +123,17 @@ JWT_SECRET=your_jwt_secret
 
 ### 4. Jalankan Aplikasi
 
+- Untuk menjalankan client:
+  ```bash
+  npm run client
+  ```
 - Untuk menjalankan server:
   ```bash
-  npm start
-  ```
-- Untuk menjalankan client (di folder `client/`):
-  ```bash
-  npm run dev
+  npm run server
   ```
 - Untuk menjalankan client dan server secara bersamaan:
   ```bash
-  npm run dev
+  npm run client-server
   ```
 
 ## Kontribusi
