@@ -101,7 +101,7 @@ JWT_SECRET=your_jwt_secret
 
 ## Kontribusi
 
-Kontribusi terbuka khusus untuk anggota tim ini. Jika Anda ingin berkontribusi, silakan buat branch baru, lakukan perubahan, dan kirimkan pull request untuk direview. Pastikan mengikuti pedoman pengkodean dan menulis pengujian untuk fitur baru.
+Kami menyambut kontribusi dari siapa saja! Jika Anda ingin berkontribusi, silakan fork repository ini dan kirimkan pull request dengan perubahan Anda. Pastikan untuk mengikuti pedoman pengkodean dan menulis pengujian untuk fitur baru.
 
 ## Lisensi
 
