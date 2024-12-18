@@ -15,6 +15,7 @@ Gekgek University LMS adalah aplikasi Learning Management System (LMS) full-stac
 ## Teknologi yang Digunakan
 
 ### Front-End
+
 - React.js (library untuk membangun UI)
 - Tailwind CSS (framework untuk styling)
 - React Router (untuk navigasi antar halaman)
@@ -22,6 +23,7 @@ Gekgek University LMS adalah aplikasi Learning Management System (LMS) full-stac
 - Axios (untuk data fetching)
 
 ### Back-End
+
 - Node.js (runtime environment)
 - Express.js (web framework untuk Node.js)
 - JWT (untuk otentikasi pengguna)
@@ -30,14 +32,17 @@ Gekgek University LMS adalah aplikasi Learning Management System (LMS) full-stac
 - Prisma (ORM untuk interaksi dengan database PostgreSQL)
 
 ### Database
+
 - PostgreSQL (relational database management system)
 
 ### Testing
+
 - Jest (untuk pengujian front-end)
 - Mocha dan Chai (untuk pengujian back-end)
 - Cypress (untuk pengujian end-to-end)
 
 ### Deployment
+
 - Vercel / Netlify (untuk hosting front-end)
 - Render / Railway (untuk hosting back-end)
 - Supabase (untuk hosting database)
@@ -56,12 +61,15 @@ Gekgek University LMS adalah aplikasi Learning Management System (LMS) full-stac
 ## Cara Instalasi
 
 ### 1. Clone Repository
+
 Clone repository ini ke komputer Anda:
+
 ```bash
 git clone https://github.com/farisakbar28/gekgek-university-lms.git
 ```
 
 ### 2. Instal Dependensi
+
 - Masuk ke folder `client/` dan jalankan:
   ```bash
   npm install
@@ -72,13 +80,16 @@ git clone https://github.com/farisakbar28/gekgek-university-lms.git
   ```
 
 ### 3. Konfigurasi File .env
+
 Buat file `.env` di folder `server/` dengan isi berikut:
+
 ```
 DATABASE_URL=your_database_url
 JWT_SECRET=your_jwt_secret
 ```
 
 ### 4. Jalankan Aplikasi
+
 - Untuk menjalankan server:
   ```bash
   npm start
@@ -89,7 +100,9 @@ JWT_SECRET=your_jwt_secret
   ```
 
 ## Kontribusi
-Kami menyambut kontribusi dari siapa saja! Jika Anda ingin berkontribusi, silakan fork repository ini dan kirimkan pull request dengan perubahan Anda. Pastikan untuk mengikuti pedoman pengkodean dan menulis pengujian untuk fitur baru.
+
+Kontribusi terbuka khusus untuk anggota tim ini. Jika Anda ingin berkontribusi, silakan buat branch baru, lakukan perubahan, dan kirimkan pull request untuk direview. Pastikan mengikuti pedoman pengkodean dan menulis pengujian untuk fitur baru.
 
 ## Lisensi
+
 Proyek ini dilisensikan di bawah [MIT License](LICENSE).
