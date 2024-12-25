@@ -4,13 +4,14 @@ Gekgek University LMS adalah aplikasi Learning Management System (LMS) full-stac
 
 ## Fitur Utama
 
-- **Pendaftaran Pengguna:** Pengguna dapat mendaftar, masuk, dan mengelola akun mereka.
-- **Manajemen Kursus:** Admin dapat membuat, memperbarui, dan menghapus kursus.
-- **Pendaftaran Kursus:** Pengguna dapat mendaftar ke kursus yang tersedia dan mengikuti materi yang diberikan.
-- **Manajemen Materi:** Admin dapat mengunggah materi pembelajaran seperti video, dokumen, dan lainnya.
-- **Fitur Real-time:** Menggunakan Socket.IO untuk chat dan interaksi real-time antara instruktur dan siswa.
-- **Keamanan:** Menggunakan JWT untuk otentikasi dan otorisasi pengguna.
-- **File Upload:** Menggunakan Multer untuk mengelola unggahan file dari pengguna.
+- **Manajemen Akun Pengguna:** Pengguna dapat mendaftar, masuk, dan mengelola akun mereka dengan mudah.  
+- **Manajemen Kursus:** Pengguna dapat membuat, memperbarui, dan menghapus kursus sesuai kebutuhan.  
+- **Pendaftaran Kursus:** Pengguna dapat mendaftar ke kursus yang tersedia dan mengikuti materi pembelajaran yang diberikan.  
+- **Manajemen Materi Pembelajaran:** Pengguna dapat mengunggah berbagai jenis materi pembelajaran, seperti video, dokumen, dan lainnya.  
+- **Fitur Real-Time:** Menggunakan Socket.IO untuk menyediakan fitur chat dan interaksi real-time antara instruktur dan siswa.  
+- **Keamanan:** Otentikasi dan otorisasi pengguna dilakukan menggunakan JWT untuk menjaga keamanan data.  
+- **Manajemen File:** Menggunakan Multer untuk mengelola unggahan file dari pengguna, seperti dokumen dan materi pembelajaran.  
+- **Admin Dashboard:** Menyediakan fitur pemantauan untuk kelas, semester, instruktur, siswa, dan data analitik lainnya.
 
 ## Teknologi yang Digunakan
 
